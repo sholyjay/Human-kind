@@ -1,0 +1,1516 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* This is the start of Nav-wrap sectioning */
+/* .nav-wrap{
+    background-color: #0d1422;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    display: flex;
+}
+
+.human{
+    margin: 15px;
+    padding-left: 40px;
+}
+
+.jjc{
+    display: flex;
+}
+
+.jjc a{
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 23px;
+    text-transform: uppercase;
+    font-weight: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn{
+    margin-top: 25px;
+    background: none;
+    border: none;
+    margin-left: 380px;
+    text-transform: uppercase;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #cfd0d3;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn a:hover{
+    background:none;
+    color: white;
+}
+
+.btn1{
+    margin-top: 14px;
+    margin-left: 30px;
+    padding: 12px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    background-color: #cfd0d3;
+    text-transform: uppercase;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: #0d1422;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.jic{
+    border: 2px solid #cfd0d3;
+    color: #cfd0d3;
+    background-color: #0d1422;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.jic:hover{
+    border: 2px solid white;
+    color: white;
+} */
+
+/* This is the End of Nav-wrap sectioning */
+
+/* This is the start of KeyArt Background sectioning */
+
+.banner{
+    background: url("./Multimedia/KeyArt_Oceania.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;	
+}
+
+.sola{
+    height: 250px;
+}
+
+.btn2 {
+    padding: 20px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: #0d1422;
+    transition: 1s ease;
+}
+
+/* This is the END of KeyArt Background sectioning */
+
+/* This is the start of Video-made sectioning */
+.vid-wrap{
+    background-color: #0d1422;
+    margin-top: 10px;
+    padding-bottom: 70px;
+    padding-top: 80px;
+}
+
+.dip{
+    width: 450px;
+    align-content: center;
+    padding-bottom: 40px;
+}
+
+.jide{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vid-kick{
+    display: flex;
+    gap: 20px;
+}
+
+.vid{
+    height: 400px;
+    border-radius: 10px;
+}
+
+.vid-2{
+    height: 400px;
+    border-radius: 10px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-text {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+
+  .vid-p{
+    color: white;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .vid-h4{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .video-text1 {
+    position: absolute;
+    top: 75%;
+    left:25%;
+    transform: translate(10%, 50%);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+
+  .vid-p1{
+    color: white;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .vid-h4-1{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 17px;
+  }
+  
+  .video-text2 {
+    position: absolute;
+    top: 80%;
+    left:24.5%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+
+  .video-text3 {
+    position: absolute;
+    top: 80%;
+    left:24.2%;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* This is the END of KeyArt Background sectioning */
+
+  /* This is the START of Play Background sectioning */
+.banner-1{
+    background: url("https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/promo-bg.jpg?VersionId=QPqKz3FhOX30sjbSs_6yl0x4DvCT1Pr_&itok=sNi6C55w");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;		
+}
+
+.banding{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px 0%;
+}
+
+.bannertext-1{
+    color: #0d1422;
+    font-size: 20px;
+}
+
+.banner-p{
+    margin-top: 40px;
+    color: #0d1422;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.banner-p1{
+    margin-top: 20px;
+}
+
+.dash-list{
+    margin-left: 15px;
+    list-style: none;
+    margin-top: 30px;
+    color: #0d1422;
+    line-height: 26px;
+}
+
+.dash-list li::before{
+    margin-right: 10px;
+    content: "-" ;
+    color:#0d1422;
+}
+
+.btn4{
+    padding: 20px;
+    width: 190px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 21px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0d1422;
+    color: white;
+    cursor: pointer;
+}
+
+.btn4:hover{
+    border: 1px solid black;
+    background-color: white;
+    color:#0d1422;
+    transition: 1s ease;
+}
+
+.Ay-array{
+    height: 280px;
+    width: 490px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+/* This is the END of Play Background sectioning */
+
+/* This is the START of Landscape sectioning */
+.land{
+    background: url("https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/second-promo-landscape.jpg?VersionId=CAe7DFcem91Si2h3UUkbDEcr81RUUMrZ&itok=YPnRZU6s");
+    background-size: cover;
+    background-repeat: no-repeat;	
+}
+
+.land-wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.bin{
+    height: 270px;
+}
+
+.kip{
+    text-transform: uppercase;
+    text-align: start;
+    color: #F4F3EF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Futura-PT-Heavy (otf) sans-serif;
+}
+
+.kip1{
+    text-transform: uppercase;
+    color: #F4F3EF;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: rubik sans-serif;
+}
+
+.kip2{
+    margin-top: 40px;
+    color: #F4F3EF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: rubik sans-serif;
+    line-height: 25px;
+}
+
+.kip3{
+    margin-top: 30px;
+    color: #F4F3EF;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: rubik sans-serif;
+    line-height: 25px;
+}
+
+.btn5{
+    padding: 20px;
+    width: 190px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color:#cfd0d3;
+    color:#0d1422;
+    cursor: pointer;
+}
+    
+.btn5:hover{
+    border: 2px solid #cfd0d3;
+    background-color: transparent;
+    color:#cfd0d3;
+    transition: 0.5s ease;
+}
+/* This is the END of Landscape sectioning */
+
+/* This is the START of TEXT-changing sectioning */
+
+.hero {
+    height: 60vh;
+    background: url('https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/quote_bg.jpg?VersionId=2IzWfl__bb0aWLepYifmyjgGnCUwRwRf&itok=h780UZuj') no-repeat center center/cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .text-slider {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+
+  .text-group {
+    height: 40px;
+    overflow: hidden;
+   
+  }
+
+  .text-group h1 {
+    position: absolute;
+    width: 100%;
+    justify-items: center;
+    top: 150px;
+    opacity: 0;
+    animation: slideText 16s infinite;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .text-group h1:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  .text-group h1:nth-child(2) {
+    animation-delay: 4s;
+  }
+
+  .text-group h1:nth-child(3) {
+    animation-delay: 8s;
+  }
+
+  .text-group h1:nth-child(4) {
+    animation-delay: 12s;
+  }
+
+  @keyframes slideText {
+    0%, 20% { opacity: 0; transform: translateY(100%); }
+    25%, 45% { opacity: 1; transform: translateY(0); }
+    50%, 100% { opacity: 0; transform: translateY(-100%); }
+  }
+
+  .anchor{
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase
+  }
+
+/* This is the END of TEXT-changing sectioning */
+
+/* This is the START of GRID sectioning */
+.group-wrap{
+    background-color: #0d1422;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-top: 0%;
+    padding-bottom: 30px;
+}
+
+
+.battle-inc{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.btn6{
+    padding: 5px;
+    background-color: #0d1422;
+    color: #cfd0d3;
+    border: 2px solid #cfd0d3;
+    width: 80px;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn6:hover{
+    color: #0d1422;
+    background-color: #cfd0d3;
+    transition: 1s ease;
+}
+
+.btn7{
+    padding: 5px;
+    background-color: #0d1422;
+    color: #cfd0d3;
+    border: 2px solid #cfd0d3;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn7:hover{
+    color: #0d1422;
+    background-color: #cfd0d3;
+    transition: 1s ease;
+}
+
+.meg{
+    text-align: center;
+    padding-top: 100px;
+    color: #cfd0d3;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.boxing-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        gap: 15px;
+}
+
+.box img{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.group{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.group img{
+    width: 240px;
+}
+
+/* .box1 img{
+    height: 150px;
+    width: 240px;
+    margin-left: 267px;
+    margin-top: 10px;
+    border-radius: 5px;
+} 
+
+.box3 img{
+    height: 150px;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border-radius: 5px;
+} 
+
+.box4 img{
+    height: 150px;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: -62px;
+    border-radius: 5px;
+} 
+
+.box5 img{
+    height: 150px;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: -142px;
+    border-radius: 5px;
+}  */
+
+/* This is the START of GRID sectioning */
+
+/* This is the START of Grand-Tutor sectioning */
+
+.tutor{
+    background: url("https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/G2G-Background.jpg?VersionId=yUE6e47EcV_VIljwYe.SsOyFOBHa3Y38&itok=EumVQ2Dh");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.G2G-logo{
+    width: 350px;
+}
+
+.gent{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+.tutor-p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.btn8{
+    padding: 15px;
+    margin-top: 20px;
+    width: 370px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #F4F3EF;
+    border: 1px solid #F4F3EF;
+    border-radius: 7px;
+}
+
+.btn8:hover{
+    background-color: #F4F3EF;
+    color: #0d1422;
+    transition: 1s ease;
+}
+/* This is the END of Grand-Tutor sectioning */
+
+/* This is the Start of Footer sectioning */
+
+.footer-wrap{
+    background-color: #13223f;
+}
+
+.foot-me{
+    padding-bottom: 100px;
+}
+
+.footer-wrap-img{
+    display: flex;
+    gap: 60px;
+    padding-left: 100px;
+    padding-top: 120px;
+}
+
+.G2G-logo-1{
+    width: 180px;
+    margin-top: -14px;
+}
+
+.G2G-logo-2{
+    width: 170px;
+}
+
+.G2G-logo-3{
+    width: 90px;
+}
+
+.footer-hr{
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.foot-p{
+    color: white;
+    margin-top: 40px;
+    margin-left: 110px;
+    text-align: left;
+    margin-right: 120px;
+    font-size: 12px;
+}
+
+.foot-pin{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 110px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.foot-pin a{
+    text-decoration: none;
+    color: #cfd0d3;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.dig-wrap{
+    display: flex;
+    gap: 30px;
+}
+
+.dig{
+    color:#cfd0d3;
+    font-size: 32px;
+    margin-top: 45px;
+    margin-left: 110px;
+}
+
+.dig:hover{
+    color: white;
+}
+
+.dig-1{
+    color:#cfd0d3;
+    font-size: 32px;
+    margin-top: 45px;
+}
+
+.dig-1:hover{
+    color: white;
+}
+
+
+.btn-diging{
+    background:none;
+    width: 255px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 110px;
+    border: 1px solid white;
+    color: white;
+    text-transform: capitalize;
+    font-size: 400;
+    font-size: 15px;
+    padding-left: 75px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.diging-img{
+    position: relative;
+    margin-top: 45px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.diging-p{
+    padding-left: 110px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.diging-p a{
+    text-decoration: none;
+    color: white;
+}
+
+.diging-p a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.bus-card{
+    background-color: white;
+    width: 300px;
+    height: 124px;
+    margin-top: 40px;
+    margin-left: 110px;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px white;
+    position: absolute;
+    
+}
+
+.bus-card p{
+    margin-top: 20px;
+    margin-left: 115px;
+    font-size: 17px;
+}
+
+.bus-card-img{
+    position: relative;
+    margin-top: 42px;
+    margin-left:94px;
+    height: 120px;
+    width: 120px;
+}
+
+
+/* This is the END of Footer sectioning */
+
+/* This is the Start of GO-TO Top Sectioning */
+.go-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    scroll-behavior:smooth;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+  
+.go-top-btn:hover {
+    background-color: #444;
+    transform: s
+}
+  
+/* This is the END of GO-TO Top Sectioning */
+
+@media screen and (max-width: 1440px){
+    .group-wrap {
+        padding-right: 210px;
+        padding-left: 210px;
+        padding-top: 0%;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .vid-kick {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .vid {
+        height: 280px;
+    }
+    .vid-2 {
+        height: 280px;
+    }
+
+    .video-text {
+        left: 15%;
+    }
+
+    .video-text1 {
+        left: 10%;
+    }
+
+    .video-text2 {
+        left: 4%;
+    }
+
+    .video-text3 {
+        left: 4%;
+    }
+
+    .vid-p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+     .vid-p1{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .vid-h4{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .vid-h4-1{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .group-wrap {
+        padding-bottom: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .group img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .group {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    justify-content: center;
+    gap: 20px;
+}
+
+    .box img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 463px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .vid-kick{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 40px;
+        gap: 60px;
+    }
+
+    .dip{
+        width: 700px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-1{
+        height: fit-content;
+    }
+
+    .banding{
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Ay-array{
+        height: 210px;
+        width: 370px;
+    }
+
+    .group img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .land-wrap{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    .bin{
+        height: 180px;
+    }
+
+    .btn5 {
+        padding: 15px;
+        margin-top: 15px;
+        width: 170px;
+    }
+
+    .jide {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        padding: 0px 35px;
+    }
+
+    .vid{
+        height: 400px;
+    }
+
+    .vid-2{
+        height: 400px;
+    }
+
+    .video-text {
+        left: 17%;
+        font-size: 27px;
+    }
+
+    .vid-p{
+        font-size: 22px;
+    }
+
+    .vid-h4{
+        font-size: 18px;
+    }
+
+    .video-text1 {
+        left: 16%;
+        font-size: 27px;
+    }
+
+    .vid-p1{
+        font-size: 22px;
+    }
+
+    .vid-h4-1{
+        font-size: 18px;
+    }
+    
+    .video-text2 {
+        left: 5%;
+        font-size: 26px;
+    }
+
+    .video-text3 {
+        left: 8%;
+        font-size: 26px;
+    }
+
+    .btn4{
+        padding: 15px;
+        margin-top: 20px;
+        width: 150px;
+    }
+
+    .tolu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .text-group h1 {
+        font-size: 45px;
+        top: 90px;
+    }
+
+    .boxing-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .group-wrap {
+        padding-bottom: 30px;
+    }
+
+    .group {
+        display: grid;
+        grid-template-columns: 230px 230px;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 15px;
+    }
+
+    .group img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+    .battle-inc {
+        display: flex;
+        justify-content: center;
+    }
+
+     .meg {
+        text-align: center;
+        padding-top: 100px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .btn6 {
+        padding: 10px;
+        width: 90px;
+        font-size: 20px;
+    }
+
+    .btn7 {
+        padding: 10px;
+        width: 90px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+   
+    .G2G-logo {
+        width: 270px;
+    }
+
+    .btn8 {
+        padding: 10px;
+        margin-top: 15px;
+        width: 300px;
+    }  
+
+    .foot-pin{
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-wrap-img{
+        flex-wrap: wrap;
+        gap: 25px;
+        padding-left: 70px;
+        padding-top: 120px;
+    }
+
+    .footer-hr{
+        margin-left: 70px;
+    }
+
+    .foot-p{
+        margin-left: 70px;
+        margin-right: 120px;
+        line-height: 20px;
+        font-size: 10px;
+    }
+
+    .foot-pin{
+        gap: 15px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .foot-pin a{
+        font-size: 12px;
+    }
+
+    .dig-wrap{
+        gap: 20px;
+    }
+
+    .dig{
+        font-size: 25px;
+        margin-top: 35px;
+        margin-left: 70px;
+    }
+
+    .dig-1{
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    .btn-diging{
+        margin-top: 35px;
+        margin-left: 70px;
+        font-size: 400;
+        font-size: 15px;
+        padding-left: 75px;
+    }
+
+    .diging-img{
+        margin-top: 45px;
+        margin-left: 100px;
+    }
+
+    .diging-p{
+        padding-left: 70px;
+    }
+
+    .bus-card{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    .bus-card p{
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 17px;
+    }
+
+    .bus-card-img{
+        position: relative;
+        margin-top: 32px;
+        margin-left: 53px;
+        height: 120px;
+        width: 120px;
+    }
+
+}
+
+
+
+@media screen and (max-width:426px){
+    .jide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .dip {
+        width: 440px;  
+    }
+
+    .vid-kick {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0%;
+    }
+
+    .vid {
+        height: 500px;
+        object-fit: contain;
+    }
+
+    .vid-2{
+        height: 500px;
+    }
+
+    .video-text {
+        left: 17%;
+        font-size: 35px;
+    }
+
+    .vid-p{
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+    .vid-h4{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .video-text1 {
+        left: 12%;
+        font-size: 35px;
+    }
+
+    .vid-p1{
+        font-size: 27px;
+        line-height: 26px;
+    }
+
+    .vid-h4-1{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .video-text2 {
+        left: 4%;
+        font-size: 32px;
+    }
+
+    .video-text3 {
+        left: 5%;
+        font-size: 35px;
+    }
+
+    .banding{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .land-wrap{
+        flex-wrap: wrap;
+        align-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .kip{
+        text-align: center;
+    }
+
+    .hero{
+        height: 80vh;
+    }
+
+    .group{
+        grid-template-columns: 180px 180px;
+    }
+
+    .footer-wrap-img{
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0%;
+    }
+
+    .tolu{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .Ay-array{
+        width: 380px;
+    }
+
+    .box img{
+        width: 380px;
+    }
+
+    .footer-hr{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .foot-p{
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .foot-pin{
+        flex-direction: column;
+        margin-left: 0%;
+        padding-left: 30px;
+    }
+
+    .dig{
+        margin-left: 0%;
+        padding-left: 30px;
+    }
+
+    .btn-diging{
+        margin-left: 30px;
+    }
+
+    .diging-img{
+        margin-left: 45px;
+    }
+
+    .diging-p{
+        margin-left: 0%;
+        padding-left: 30px;
+    }
+
+    .bus-card{
+        margin-top: 30px;
+        margin-left: 30px;
+        
+    }
+
+    .bus-card p{
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 17px;
+    }
+
+    .bus-card-img{
+        position: relative;
+        margin-top: 32px;
+        margin-left: 13px;
+        height: 120px;
+        width: 120px;
+    }
+
+    
+}
+
+@media screen and (max-width:376px) {
+    .dip{
+        width: 350px;
+    }
+
+    .Ay-array{
+        width: 335px;
+    }
+
+    .box img{
+        width: 350px;
+    }
+
+    .group{
+        grid-template-columns: 165px 165px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .dip{
+        width: 325px;
+    }
+
+    .Ay-array{
+        width: 280px;
+    }
+
+    .box img{
+        width: 290px;
+    }
+
+    .group{
+        grid-template-columns: 134px 134px;
+    }
+
+    .dig-wrap{
+        gap: 10px;
+    }
+
+    .btn-diging{
+        width: 225px;
+        height: 48px;
+    }
+
+    .bus-card{
+        width: 230px;
+        height: 75px;
+    }
+
+    .bus-card-img{
+        margin-left: 0%;
+        width: 115px;
+        height: 70px;
+    }
+
+    .bus-card p {
+        margin-top: 15px;
+        margin-left: 63px;
+        font-size: 16px;
+    }
+
+    .btn8{
+        width: 260px;
+    }
+
+    .sola {
+        height: 230px;
+    }
+
+    .vid {
+        height: 400px;
+        margin-left: 0%;
+        padding-left: 5px;
+        padding-right: 0%;
+    }
+
+    .vid-2{
+        height: 400px;
+         margin-left: 0%;
+        padding-left: 5px;
+        padding-right: 0%;
+    }
+
+    .video-text {
+        top: 70%;
+        left: 8%;
+        font-size: 35px;
+    }
+
+    .vid-p{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .vid-h4{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .video-text1 {
+        top: 65%;
+        left: 5%;
+        font-size: 35px;
+    }
+
+    .vid-p1{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .vid-h4-1{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    
+    .video-text2 {
+        top: 75%;
+        left: 6%;
+        font-size: 25px;
+    }
+
+    .video-text3 {
+        left: 8%;
+        font-size: 27px;
+    }
+
+}
+
+
+
+
