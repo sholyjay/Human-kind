@@ -1427,9 +1427,9 @@ html{
     }
 
     .bus-card p {
-        margin-top: 15px;
-        margin-left: 63px;
-        font-size: 16px;
+        margin-top: 0%;
+        margin-left: 55px;
+        font-size: 15px;
     }
 
     .btn8{
@@ -1455,8 +1455,8 @@ html{
     }
 
     .video-text {
-        top: 70%;
-        left: 8%;
+        top: 75%;
+        left: 28%;
         font-size: 35px;
     }
 
@@ -1477,8 +1477,8 @@ html{
     }
 
     .video-text1 {
-        top: 65%;
-        left: 5%;
+        top: 70%;
+        left: 22%;
         font-size: 35px;
     }
 
@@ -1499,13 +1499,13 @@ html{
     }
     
     .video-text2 {
-        top: 75%;
-        left: 6%;
+        top: 80%;
+        left: 10%;
         font-size: 25px;
     }
 
     .video-text3 {
-        left: 8%;
+        left: 24%;
         font-size: 27px;
     }
 
